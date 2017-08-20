@@ -8,8 +8,9 @@
 
   namespace LuquinhasBrito\CPF;
 
+  use Exception;
   use Goutte\Client;
-  use LuquinhasBrito\Utils\Utils;
+  use JansenFelipe\Utils\Utils;
   use Symfony\Component\DomCrawler\Crawler;
 
   /**

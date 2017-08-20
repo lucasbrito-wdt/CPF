@@ -11,8 +11,8 @@
   ],
   "require": {
     "php": ">=7.0",
-    "fabpot/goutte": "@dev-master",
-    "jansenfelipe/utils": "@dev-master"
+    "fabpot/goutte": "@dev",
+    "jansenfelipe/utils": "@dev"
   },
   "autoload": {
     "psr-4": {

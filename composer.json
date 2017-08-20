@@ -1,0 +1,31 @@
+{
+  "name": "luquinhasbrito/cpf",
+  "description": "Com esse pacote você poderá consultar, gratuitamente, CPFs diretamente no site da receita.",
+  "keywords": ["laravel", "cpf", "php"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Web Design Technologies",
+      "email": "webdesigntechnologies@outlook.com.br"
+    }
+  ],
+  "require": {
+    "php": ">=7.0",
+    "fabpot/goutte": "@dev-master",
+    "jansenfelipe/utils": "@dev-master"
+  },
+  "autoload": {
+    "psr-4": {
+      "LuquinhasBrito\\CPF\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "3.0-dev"
+    }
+  },
+  "minimum-stability": "dev"
+}

@@ -1,0 +1,9 @@
+<#if licenseFirst??>
+${licenseFirst}
+</#if>
+${licensePrefix}  * @author Web Desgin Technologies <webdesigntechnologies@outlook.com.br>
+${licensePrefix}  * @copyright 2017 (C) by Web Desgin Technologies
+${licensePrefix}  * @link https://www.facebook.com/webdesigntechnologies.1/
+<#if licenseLast??>
+${licenseLast}
+</#if>
